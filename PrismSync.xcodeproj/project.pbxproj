@@ -25,6 +25,10 @@
 		95CBE4762A51049300A468D7 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBE4752A51049300A468D7 /* ActivityView.swift */; };
 		95CBE4782A510AF500A468D7 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBE4772A510AF500A468D7 /* ButtonStyle.swift */; };
 		95CBE47A2A513AA900A468D7 /* NoAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBE4792A513AA900A468D7 /* NoAuthView.swift */; };
+		95CBE47F2A5157DF00A468D7 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBE47E2A5157DF00A468D7 /* PhotosView.swift */; };
+		95CBE4812A51583400A468D7 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBE4802A51583400A468D7 /* AlbumView.swift */; };
+		95CBE4832A515D4A00A468D7 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBE4822A515D4A00A468D7 /* Album.swift */; };
+		95CBE4852A51651B00A468D7 /* AlbumImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBE4842A51651B00A468D7 /* AlbumImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		95CBE4752A51049300A468D7 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		95CBE4772A510AF500A468D7 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		95CBE4792A513AA900A468D7 /* NoAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAuthView.swift; sourceTree = "<group>"; };
+		95CBE47E2A5157DF00A468D7 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		95CBE4802A51583400A468D7 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		95CBE4822A515D4A00A468D7 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		95CBE4842A51651B00A468D7 /* AlbumImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,9 @@
 				95CBE4752A51049300A468D7 /* ActivityView.swift */,
 				95CBE4772A510AF500A468D7 /* ButtonStyle.swift */,
 				95CBE4792A513AA900A468D7 /* NoAuthView.swift */,
+				95CBE47E2A5157DF00A468D7 /* PhotosView.swift */,
+				95CBE4802A51583400A468D7 /* AlbumView.swift */,
+				95CBE4842A51651B00A468D7 /* AlbumImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 				95CBE4652A4FDAD200A468D7 /* MediaLibrary.swift */,
 				95CBE4672A4FDB3E00A468D7 /* Item.swift */,
 				95CBE46D2A4FF25500A468D7 /* MediaDbModel.swift */,
+				95CBE4822A515D4A00A468D7 /* Album.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,8 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				95BA414B2A4F796B0078714C /* PhotoController.swift in Sources */,
+				95CBE4812A51583400A468D7 /* AlbumView.swift in Sources */,
 				95CBE4682A4FDB3E00A468D7 /* Item.swift in Sources */,
 				95BA41512A4FA6230078714C /* PhotoPrismClient.swift in Sources */,
+				95CBE47F2A5157DF00A468D7 /* PhotosView.swift in Sources */,
+				95CBE4832A515D4A00A468D7 /* Album.swift in Sources */,
 				95CBE4782A510AF500A468D7 /* ButtonStyle.swift in Sources */,
 				95CBE4662A4FDAD200A468D7 /* MediaLibrary.swift in Sources */,
 				95CBE47A2A513AA900A468D7 /* NoAuthView.swift in Sources */,
@@ -247,6 +262,7 @@
 				95CBE4602A4FCD1F00A468D7 /* MediaModel.swift in Sources */,
 				95CBE4622A4FD52E00A468D7 /* GridView.swift in Sources */,
 				95CBE4762A51049300A468D7 /* ActivityView.swift in Sources */,
+				95CBE4852A51651B00A468D7 /* AlbumImageView.swift in Sources */,
 				95BA413A2A4F78990078714C /* PrismSyncApp.swift in Sources */,
 				95CBE4742A51047F00A468D7 /* SettingsView.swift in Sources */,
 			);

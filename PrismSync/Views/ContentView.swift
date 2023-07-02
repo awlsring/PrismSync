@@ -98,12 +98,12 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-//        let prismClient = PhotoPrismClient(baseURL: URL(string: "https://tmp.com/")!, username: "admin", password: "tmp")
-        
-//        let photos = PhotoController.shared()
-        
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+////        let prismClient = PhotoPrismClient(baseURL: URL(string: "https://tmp.com/")!, username: "admin", password: "tmp")
+//        
+////        let photos = PhotoController.shared()
+//        
+//        ContentView()
+//    }
+//}

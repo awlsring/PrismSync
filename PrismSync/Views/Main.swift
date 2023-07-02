@@ -35,7 +35,7 @@ struct Main: View {
                 } else {
                     List {
                         Section {
-                            NavigationLink("Photos", destination: ContentView()).padding([.vertical])
+                            NavigationLink("Photos", destination: PhotosView()).padding([.vertical])
                             NavigationLink("Activity", destination: ActivityView()).padding([.vertical])
                         }
                         Section {
