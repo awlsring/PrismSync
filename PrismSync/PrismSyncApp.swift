@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Blackbird
 
 @main
 struct PrismSyncApp: App {
+    @StateObject var database = try! Blackbird.Database.inMemoryDatabase()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Main()
+            .environment(\.blackbirdDatabase, database)
+            .preferredColorScheme(.dark)
         }
     }
 }
